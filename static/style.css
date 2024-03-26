@@ -1,0 +1,42 @@
+/* File: static/style.css */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    color: #333;
+}
+
+#chat-history {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.chat-message {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input[type="text"] {
+    width: 85%;
+}
+
+form input[type="submit"] {
+    width: 10%;
+}
